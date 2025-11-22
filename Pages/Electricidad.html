@@ -10,59 +10,141 @@
     <link rel="stylesheet" href="../Styles/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-        <p class="nosotos-superior"><a href="#nosotos-superior-h4">Nosotros</a></p>
-        <p class="nosotos-superior">|</p>
-        <p class="nosotos-superior">Presupuesto</p>
-        <p class="contacto">Contacto</p>
-        <p class="contacto">|</p>
-        <p class="contacto">(011) 11 2332-0633</p>
-        <img src="../Imagenes/Logo.jpeg" alt="">
-            <ul class="mi-lista">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="#">Electricidad</a>
-                </li>
-                <li>
-                    <a href="./Pintureria.html">Pintura</a>
-                </li>
-                <li>
-                    <a href="./Agua.html">Plomería</a>
-                </li>
-                <li>
-                    <a href="./Tornillos.html">Bulonería</a>
-                </li>
-                <li>
-                    <a href="./Artvarios.html">Art. Varios</a>
-                </li>
+<header>
+    <nav class="navbar navbar-expand-lg bg-nav-sup">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" href="#">Presupuesto</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" aria-disabled="true">Contacto | (011) 2332-0633</a>
+            </li>
             </ul>
-            <h1>Nuestos productos</h1>
-        </nav>
-    </header>
-    <main>
-        <h4>Nosotos</h4>
-        <p class="nosotros-inf"> 5 años de pasión y tradición familiar con un fuerte compromiso comunitario, ofreciendo variedad y calidad en productos y herramientas para el hogar y la construcción.</p>
-        <div>
-        <h4 id="nosotos-superior-h4">Nosotos</h4>
         </div>
-        <ul>
-            <li>Electricidad</li>
-            <li>Plomería</li>
-            <li>Pinturería</li>
-            <li>Bulonería</li>
-        </ul>
-        <h4>Dirección</h4>
-        <p>Azcuénaga 3544, Muñiz, Provincia de Buenos Aires, Argentina</p>
-    <!--Mapa de direccio-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.359899121594!2d-58.72369392514859!3d-34.56975895570397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd875cbd6365%3A0x3a562729f12c367!2sMis%20Abuelos%20%7C%20Ferreter%C3%ADa%20en%20Mu%C3%B1iz!5e0!3m2!1ses!2sar!4v1760823425624!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </main>
-    <footer>
-        <p>Todos los derechos reservados a Ferreteria Mis Abuelos 2024</p>
-    </footer>
+</nav>
+<section>  
+<div class="navbar-medio">
+        <!--Logo-->
+    <img src="../Imagenes/Logo.jpeg" alt="Logo">
+</div>
+<!--Barra de busqueda-->
+<nav>
+    <form method="get" action="">
+        <input id="barra" type="text" placeholder="Buscar producto..." name="Buscar">
+        <button type="submit">Buscar</button>
+    </form>
+</nav>
+</section>
+</header>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<main>
+<!--Enlaces a otras secciones-->
+<div class="contenedor-cards">
+    <div class="">
+        <a href="#">
+            <img class="enlace-herramientas" src="../Imagenes/electricidad.jfif" alt="Electricidad">
+            <h3>Electricidad</h3>
+        </a>
+    </div>
+    <div class="contenedor-cards">
+        <a href="./Pintureria.html">
+            <img class="enlace-herramientas" src="../Imagenes/pintura2.jfif" alt="Pintura">
+            <h3>Pintura</h3>
+        </a>
+    </div>
+    <div class="contenedor-cards">
+        <a href="./Agua.html">
+            <img class="enlace-herramientas" src="../Imagenes/agua.jfif" alt="Plomeria">
+            <h3>Plomeria</h3>
+        </a>
+  </div>
+  <div class="contenedor-cards">
+        <a href="./Tornillos.html">
+            <img class="enlace-herramientas" src="../Imagenes/tornillos.jfif" alt="Buloneria">
+            <h3>Bulonería</h3>
+        </a>
+  </div>
+  <div class="contenedor-cards">
+        <a href="./Artvarios.html">
+            <img class="enlace-herramientas" src="../Imagenes/herramientas.jfif" alt="Artvarios">
+            <h3>Articulos varios</h3>
+        </a>
+    </div>
+</div>
+<div class="art-dest">
+    <h2>ELECTRICIDAD</h2>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/cable-taller-2x15mm-destacado.jpg" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cable Taller 2x1,5mm x Mt Kalop</h5>
+        <h6 class="precio">1.100,00 ARS</h6>
+        <p class="card-text">Constituídos en cobre cátodo con elevada conductividad eléctrica de valor mínimo 101 IACS, aislados con cobertura de compuesto PVC/D.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/electricidad1.jfif" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pack X 4 Lámpara Led Alta Potencia 50w Ledvance Osram Fria Luz Blanco Frío</h5>
+        <h6 class="precio">29.700,00 ARS</h6>
+        <p class="card-text">Descubre el Pack x 4 Lámparas LED de Alta Potencia de 50W de Ledvance Osram, ideal para iluminar grandes espacios con su potente flujo luminoso de 3000 lúmenes. Estas lámparas emiten una luz blanca fría con una temperatura de color de 6500 K, perfecta para crear un ambiente luminoso y energizante.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/multimetro.webp" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Multímetro Digital True Rms Uni-t Ut890c Truerms Capacidad</h5>
+        <h6 class="precio">42.200,00 ARS</h6>
+        <p class="card-text">El UNI-T Multímetro Digital UT890C es una herramienta de medición electrónica altamente versátil y precisa para aplicaciones en electricidad, electrónica y mantenimiento de equipos. Este dispositivo ofrece una gama de funciones y características, que incluyen medición de voltaje, corriente, resistencia, pruebas de continuidad y diodo, además de funciones adicionales como pantalla LCD, protección de sobrecarga y portabilidad. Cuenta con funciones de retención de datos para facilitar el análisis de las mediciones.
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/buscapolo.webp" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Buscapolo Detector Tension Brinna Indicacion Luminosa Sonora</h5>
+        <h6 class="precio">45.500,00 ARS</h6>
+        <p class="card-text">Lapiz buscapolo detector de voltaje de corriente alterna de 90 a 1000V sin contacto.
+Detección de corriente sin tocar conductores eléctricos.
+Aplicaciones: electricistas, técnicos, personal de mantenimiento y servicio.
+Tamaño compacto con clip de bolsillo.</p>
+      </div>
+    </div>
+  </div>
+</div>    
+
+</main> 
+<footer>
+    <img src="../Imagenes/Logo.jpeg" class="logo-footer" alt="logo">
+    <p class="historia">5 años de pasión y tradición familiar con un fuerte compromiso comunitario, ofreciendo variedad y calidad en productos y herramientas para el hogar y la construcción.</p>
+    
+
+    <!--Mapa de direccio-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.359899121594!2d-58.72369392514859!3d-34.56975895570397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd875cbd6365%3A0x3a562729f12c367!2sMis%20Abuelos%20%7C%20Ferreter%C3%ADa%20en%20Mu%C3%B1iz!5e0!3m2!1ses!2sar!4v1760823425624!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <p>Todos los derechos reservados a Ferreteria Mis Abuelos 2024</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
 </body>
 </html>

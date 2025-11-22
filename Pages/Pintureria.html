@@ -3,67 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pinturería</title>
+    <title>Pintura</title>
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="../Styles/style.css">
 </head>
 <body>
-    <header>       
-        <nav>
-        <p class="nosotos-superior"><a href="#nosotos-superior-h4">Nosotros</a></p>
-        <p class="nosotos-superior">|</p>
-        <p class="nosotos-superior">Presupuesto</p>
-        <p class="contacto">Contacto</p>
-        <p class="contacto">|</p>
-        <p class="contacto">(011) 11 2332-0633</p>
-        <img src="../Imagenes/Logo.jpeg" alt="">
-            <ul class="mi-lista">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./Electricidad.html">Electricidad</a>
-                </li>
-                <li>
-                    <a href="#">Pintura</a>
-                </li>
-                <li>
-                    <a href="./Agua.html">Plomería</a>
-                </li>
-                <li>
-                    <a href="./Tornillos.html">Bulonería</a>
-                </li>
-                <li>
-                    <a href="./Artvarios.html">Art. Varios</a>
-                </li>
+<header>
+    <nav class="navbar navbar-expand-lg bg-nav-sup">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" href="#">Presupuesto</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" aria-disabled="true">Contacto | (011) 2332-0633</a>
+            </li>
             </ul>
-            <h1>Nuestros productos</h1>
-        </nav>
-    </header>
-    <main>
-        <div>
-        <h4 id="nosotos-superior-h4">Nosotos</h4>
         </div>
-        <p class="nosotros-inf"> 5 años de pasión y tradición familiar con un fuerte compromiso comunitario, ofreciendo variedad y calidad en productos y herramientas para el hogar y la construcción.</p>
-        <h4>Rubro</h4>
-        <ul>
-            <li>Electricidad</li>
-            <li>Plomería</li>
-            <li>Pinturería</li>
-            <li>Bulonería</li>
-        </ul>
-        <h4>Dirección</h4>
-        <p> Azcuénaga 3544, Muñiz, Provincia de Buenos Aires, Argentina</p>
-        <!--Mapa de direccio-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.359899121594!2d-58.72369392514859!3d-34.56975895570397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd875cbd6365%3A0x3a562729f12c367!2sMis%20Abuelos%20%7C%20Ferreter%C3%ADa%20en%20Mu%C3%B1iz!5e0!3m2!1ses!2sar!4v1760823425624!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </main>
-    <footer>
-        <p>Todos los derechos reservados a Ferreteria Mis Abuelos 2024</p>
-        
-    </footer>
+</nav>
+<section>  
+<div class="navbar-medio">
+        <!--Logo-->
+    <img src="../Imagenes/Logo.jpeg" alt="Logo">
+</div>
+<!--Barra de busqueda-->
+<nav>
+    <form method="get" action="">
+        <input id="barra" type="text" placeholder="Buscar producto..." name="Buscar">
+        <button type="submit">Buscar</button>
+    </form>
+</nav>
+</section>
+</header>
+
+<main>
+<!--Enlaces a otras secciones-->
+<div class="contenedor-cards">
+    <div class="">
+        <a href="./Electricidad.html">
+            <img class="enlace-herramientas" src="../Imagenes/electricidad.jfif" alt="Electricidad">
+            <h3>Electricidad</h3>
+        </a>
+    </div>
+    <div class="contenedor-cards">
+        <a href="#">
+            <img class="enlace-herramientas" src="../Imagenes/pintura2.jfif" alt="Pintura">
+            <h3>Pintura</h3>
+        </a>
+    </div>
+    <div class="contenedor-cards">
+        <a href="./Agua.html">
+            <img class="enlace-herramientas" src="../Imagenes/agua.jfif" alt="Plomeria">
+            <h3>Plomeria</h3>
+        </a>
+  </div>
+  <div class="contenedor-cards">
+        <a href="./Tornillos.html">
+            <img class="enlace-herramientas" src="../Imagenes/tornillos.jfif" alt="Buloneria">
+            <h3>Bulonería</h3>
+        </a>
+  </div>
+  <div class="contenedor-cards">
+        <a href="./Artvarios.html">
+            <img class="enlace-herramientas" src="../Imagenes/herramientas.jfif" alt="Artvarios">
+            <h3>Articulos varios</h3>
+        </a>
+    </div>
+</div>
+<div class="art-dest">
+    <h2>PINTURA</h2>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/pile-al-agua-subirr-400x252.jpeg" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pintura Pileta al Agua Ecusson 10lts</h5>
+      <h6 class="precio">57.000,00 ARS</h6>
+    <p class="card-text">La Pintura para Piletas al Agua Ecusson, esta formulada para mantener impermeable y limpias las paredes y el piso de piletas de natación.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/ecu-interiores.jpeg" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Látex Interior Lavable Ecusson 10lts</h5>
+        <h6 class="precio">52.700,00 ARS</h6>
+        <p class="card-text">El Látex Acrílico Interior Exterior Lavable Ecusson cuenta con un equilibrio de cargas, permitiendo que se comporte con gran lavabilidad, cubritivo y nivelación, logrando una película resistente y muy lavable.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/ecu-premium.jpeg" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Látex Int/Ext Lavable Premium 10lts</h5>
+        <h6 class="precio">60.200,00 ARS</h6>
+        <p class="card-text">El Látex Interior Exterior Lavable Premium Ecusson, es un producto que ha sido especialmente formulado para lograr fácil aplicación y excelente acabado. Su buen poder cubritivo, nivelación y formación de película, sumado a la textura de diversos brillos de la misma, obtiene superficies de gran performance y agradable acabado. Super Lavable.
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/ecu-exteriores.jpeg" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Impermeabilizante Muros y Techos Ecusson 10lts</h5>
+        <h6 class="precio">75.200,00 ARS</h6>
+        <p class="card-text">El Impermeabilizante Muros y techos Ecusson es un producto diseñado para cumplir con la impermeabilización de terrazas, techos, muros, medianeras, paredes, mamposterías varias, maderas, etc. Cuenta con muy buena elasticidad, baja retención de polvo y hollín, y una elevadísima lavabilidad. Siendo un producto de larga vida y fácil mantenimiento.</p>
+      </div>
+    </div>
+  </div>
+</div>    
+
+</main> 
+<footer>
+    <img src="../Imagenes/Logo.jpeg" class="logo-footer" alt="logo">
+    <p class="historia">5 años de pasión y tradición familiar con un fuerte compromiso comunitario, ofreciendo variedad y calidad en productos y herramientas para el hogar y la construcción.</p>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!--Mapa de direccio-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.359899121594!2d-58.72369392514859!3d-34.56975895570397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd875cbd6365%3A0x3a562729f12c367!2sMis%20Abuelos%20%7C%20Ferreter%C3%ADa%20en%20Mu%C3%B1iz!5e0!3m2!1ses!2sar!4v1760823425624!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <p>Todos los derechos reservados a Ferreteria Mis Abuelos 2024</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
 </body>
 </html>

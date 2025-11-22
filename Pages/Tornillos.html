@@ -3,66 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--Bootstrap-->
+    <title>Bulonería</title>
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="../Styles/style.css">
-    <title>Bulonería</title>
 </head>
 <body>
-    <header>
-        <nav>
-        <p class="nosotos-superior"><a href="#nosotos-superior-h4">Nosotros</a></p>
-        <p class="nosotos-superior">|</p>
-        <p class="nosotos-superior">Presupuesto</p>
-        <p class="contacto">Contacto</p>
-        <p class="contacto">|</p>
-        <p class="contacto">(011) 11 2332-0633</p>
-        <img src="../Imagenes/Logo.jpeg" alt="">
-            <ul class="mi-lista">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./Electricidad.html">Electricidad</a>
-                </li>
-                <li>
-                    <a href="./Pintureria.html">Pintura</a>
-                </li>
-                <li>
-                    <a href="./Agua.html">Plomería</a>
-                </li>
-                <li>
-                    <a href="#">Bulonería</a>
-                </li>
-                <li>
-                    <a href="./Artvarios.html">Art. Varios</a>
-                </li>
+<header>
+    <nav class="navbar navbar-expand-lg bg-nav-sup">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" href="#">Presupuesto</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link bg-nav-sup" aria-disabled="true">Contacto | (011) 2332-0633</a>
+            </li>
             </ul>
-            <h1>Nuestros productos</h1>
-        </nav>
-    </header>
-    <main>
-        <div>
-        <h4 id="nosotos-superior-h4">Nosotos</h4>
         </div>
-        <p class="nosotros-inf"> 5 años de pasión y tradición familiar con un fuerte compromiso comunitario, ofreciendo variedad y calidad en productos y herramientas para el hogar y la construcción.</p>
-        <h4>Rubro</h4>
-        <ul>
-            <li>Electricidad</li>
-            <li>Plomería</li>
-            <li>Pinturería</li>
-            <li>Bulonería</li>
-        </ul>
-        <h4>Dirección</h4>
-        <p>Azcuénaga 3544, Muñiz, Provincia de Buenos Aires, Argentina</p>
-        <!--Mapa de direccio-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.359899121594!2d-58.72369392514859!3d-34.56975895570397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd875cbd6365%3A0x3a562729f12c367!2sMis%20Abuelos%20%7C%20Ferreter%C3%ADa%20en%20Mu%C3%B1iz!5e0!3m2!1ses!2sar!4v1760823425624!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </main>
-    <footer>
-        <p>Todos los derechos reservados a Ferreteria Mis Abuelos 2024</p>
-    </footer>
+</nav>
+<section>  
+<div class="navbar-medio">
+        <!--Logo-->
+    <img src="../Imagenes/Logo.jpeg" alt="Logo">
+</div>
+<!--Barra de busqueda-->
+<nav>
+    <form method="get" action="">
+        <input id="barra" type="text" placeholder="Buscar producto..." name="Buscar">
+        <button type="submit">Buscar</button>
+    </form>
+</nav>
+</section>
+</header>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<main>
+<!--Enlaces a otras secciones-->
+<div class="contenedor-cards">
+    <div class="">
+        <a href="./Electricidad.html">
+            <img class="enlace-herramientas" src="../Imagenes/electricidad.jfif" alt="Electricidad">
+            <h3>Electricidad</h3>
+        </a>
+    </div>
+    <div class="contenedor-cards">
+        <a href="./Pintureria.html">
+            <img class="enlace-herramientas" src="../Imagenes/pintura2.jfif" alt="Pintura">
+            <h3>Pintura</h3>
+        </a>
+    </div>
+    <div class="contenedor-cards">
+        <a href="./Agua.html">
+            <img class="enlace-herramientas" src="../Imagenes/agua.jfif" alt="Plomeria">
+            <h3>Plomeria</h3>
+        </a>
+  </div>
+  <div class="contenedor-cards">
+        <a href="#">
+            <img class="enlace-herramientas" src="../Imagenes/tornillos.jfif" alt="Buloneria">
+            <h3>Bulonería</h3>
+        </a>
+  </div>
+  <div class="contenedor-cards">
+        <a href="./Artvarios.html">
+            <img class="enlace-herramientas" src="../Imagenes/herramientas.jfif" alt="Artvarios">
+            <h3>Articulos varios</h3>
+        </a>
+    </div>
+</div>
+<div class="art-dest">
+    <h2>Bulonería</h2>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/Tuerca1-4.webp" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tuerca De Hierro Zincada De 1/4 X 250 Und.</h5>
+      <h6 class="precio">6.500,00 ARS</h6>
+    <p class="card-text">Descubre nuestras Tuercas de Hierro Zincadas de 1/4", ideales para una amplia variedad de aplicaciones en proyectos de construcción y reparación. Cada envase contiene 250 unidades, garantizando un suministro abundante para tus necesidades. Fabricadas con material de alta calidad, estas tuercas ofrecen una durabilidad excepcional y resistencia a la corrosión, gracias al recubrimiento de zinc.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/tornillo-madera.webp" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tornillo Autoperforante T2 Punta Aguja 6x1 (3,5 x 25mm) Cabeza Trompeta Drywall Paso Fino Para Fijar Placas de Durlock Caja X 1.000 Unidades</h5>
+        <h6 class="precio">8.800,00 ARS</h6>
+        <p class="card-text">Este tornillo autoperforante de alta calidad es ideal para trabajos de construcción en seco. Su diseño de punta aguja facilita la perforación, mientras que su tamaño de 6 x 1 es perfecto para una amplia gama de aplicaciones. Cada caja contiene 1000 unidades, lo que te proporcionará suficiente cantidad para grandes proyectos. Su acabado resistente asegura una larga durabilidad y un rendimiento fiable. Ideal para profesionales y aficionados al bricolaje por igual.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/kit-tornillos.webp" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kit 8 Tornillos Bulones Inox Para Escalera Nautica Rebatible</h5>
+        <h6 class="precio">18.400,00 ARS</h6>
+        <p class="card-text">KIT TORNILLOS PARA ESCALERA PLEGABLE.
+Este kit está armado para las escaleras plegables marca RO-AN y otros modelos que comercializa Náutica Belli. No se garantiza el correcto funcionamiento en otro tipo de escalera.
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../Imagenes/set-tornillos.webp" class="card-img-top img-art" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Set Tornillos Y Tuercas Acero Inoxidable Varias Medidas Caja</h5>
+        <h6 class="precio">16.250,00 ARS</h6>
+        <p class="card-text">Set 340 Tornillos y Tuercas de Acero Inoxidable de Varias Medidas Con Caja Organizadora:
+
+Este práctico set incluye 340 piezas entre tornillos y tuercas de acero inoxidable M3, presentados en un estuche organizador compacto y resistente. Ideal para trabajos de ensamblaje, reparaciones, bricolaje, electrónica y proyectos de precisión, asegurando siempre una excelente durabilidad y resistencia a la corrosión.</p>
+      </div>
+    </div>
+  </div>
+</div>    
+
+</main> 
+<footer>
+    <img src="../Imagenes/Logo.jpeg" class="logo-footer" alt="logo">
+    <p class="historia">5 años de pasión y tradición familiar con un fuerte compromiso comunitario, ofreciendo variedad y calidad en productos y herramientas para el hogar y la construcción.</p>
+    
+
+    <!--Mapa de direccio-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.359899121594!2d-58.72369392514859!3d-34.56975895570397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd875cbd6365%3A0x3a562729f12c367!2sMis%20Abuelos%20%7C%20Ferreter%C3%ADa%20en%20Mu%C3%B1iz!5e0!3m2!1ses!2sar!4v1760823425624!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <p>Todos los derechos reservados a Ferreteria Mis Abuelos 2024</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
 </body>
 </html>
