@@ -5,3 +5,9 @@
 //Componentes
 @use "./partials/base/componentes/header";
 @use "./partials/base/componentes/barra";
+@use "./partials/base/componentes/cards-enlaces";
+@use "./partials/base/componentes/cards-destacados";
+@use "./partials/base/componentes/footer";
+
+//Utilidades
+@use "./partials/base/utilites/mixins";

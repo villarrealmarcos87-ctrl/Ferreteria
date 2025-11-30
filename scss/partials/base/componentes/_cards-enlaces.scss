@@ -1,0 +1,22 @@
+@use "../utilites/mixins";
+
+.contenedor-cards {
+    @include mixins.flex(space-around,center);
+    background-color: yellow;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+}
+//tamaño imagenes de enlaces
+.enlace-herramientas{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px solid black;
+    margin-top: 10px;
+    
+}

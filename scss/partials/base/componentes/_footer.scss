@@ -1,0 +1,22 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo-footer {
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;    
+}
+.historia {
+    max-width: 400px;
+    text-align: left;
+}
