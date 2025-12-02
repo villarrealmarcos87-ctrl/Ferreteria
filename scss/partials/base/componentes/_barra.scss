@@ -17,3 +17,8 @@ button {
     color: white;
     cursor: pointer;
 }
+@media (max-width: 450px) {
+    #barra {
+        width: 300px;
+    }
+}

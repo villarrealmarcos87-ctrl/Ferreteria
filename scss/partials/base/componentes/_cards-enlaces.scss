@@ -17,6 +17,16 @@ h3{
     width: 150px;
     height: 150px;
     border-radius: 10px solid black;
-    margin-top: 10px;
-    
+    margin-top: 10px;   
+}
+@media (max-width: 450px) {
+    .contenedor-cards { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .enlace-herramientas{
+        width: 100px;
+        height: 100px;  
+    }
 }
