@@ -12,6 +12,44 @@ h3{
     font-family: 'Lora', serif;
     margin-top: 20px;
 }
+.enlaces{ 
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+.enlaces::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+.enlaces:hover::after{
+    width: 100%;
+}
+
+//Boton "IR"
+.irbtn {
+  position: relative;
+  overflow: hidden;
+}
+.irbtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3); /* Color del efecto */
+  transition: all 0.3s ease;
+  z-index: 0;
+}
+.irbtn:hover::before {
+  width: 100%; /* Se expande al 100% */
+  left: 0; /* Se expande desde la izquierda */
+}
+
 //tamaño imagenes de enlaces
 .enlace-herramientas{
     width: 150px;
